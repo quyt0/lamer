@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1024px) {
+    #home-body .intro-content-desc {
+        padding: 0 90px;
+    }
+
+    #home-body .home-story-body {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #home-body .intro-content-modal {
+        position: unset;
+        padding: 20px;
+    }
+
+    #home-body .home-intro {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #home-body .intro-content-desc {
+        padding: 0;
+    }
+
+    #home-body .home-story-body {
+        padding: 0;
+    }
+
+    #home-body .home-story-img {
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    #home-story .story-ques-left {
+        margin-bottom: 20px;
+    }
+
+    #main-header .header-nav,
+    #main-header .header-account,
+    #main-header .header-cart {
+        display: none;
+    }
+
+    .header-mobile-bar {
+        display: block;
+    }
+
+    #main-header .header-mobile-bar {
+        position: absolute;
+        font-size: 24px;
+        margin-left: 16px;
+        cursor: pointer;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .mobile-header-nav-item:hover {
+        background-color: unset;
+    }
+}
+
